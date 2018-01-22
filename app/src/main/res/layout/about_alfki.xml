@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f011b78">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="25dp"
+                    android:layout_margin="10dp"
+                    android:text="المهندس عيد رشاد شراب"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text=" أكاديمية العمل الحر عبر الانترنت"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dr_alfeki"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+
+                <TableLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+                        <TextView
+                            android:padding="5dp"
+                            android:background="@drawable/ba_shape"
+                            android:textSize="15dp"
+                            android:gravity="right"
+                            android:textColor="#fff"
+                            android:layout_weight="1"
+                            android:text="عيد رشاد شراب"
+                            />
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="15dp"
+                            android:background="@drawable/ba_shape"
+                            android:text="الاسم"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            />
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_weight="1"
+                            android:background="@drawable/ba_shape"
+                            android:gravity="right"
+                            android:padding="5dp"
+                            android:text="بكالوريوس هندسة كمبيوتر، فلسطين."
+                            android:textColor="#fff"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="15dp"
+                            android:background="@drawable/ba_shape"
+                            android:text="التحصيل العلمي"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:padding="5dp"
+                            android:background="@drawable/ba_shape"
+                            android:textSize="15dp"
+                            android:gravity="right"
+                            android:textColor="#fff"
+                            android:layout_weight="1"
+                            android:text="فلسطيني"
+                            />
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="15dp"
+                            android:background="@drawable/ba_shape"
+                            android:text="الجنسية"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:padding="5dp"
+                            android:background="@drawable/ba_shape"
+                            android:textSize="15dp"
+                            android:gravity="right"
+                            android:textColor="#fff"
+                            android:layout_weight="1"
+                            android:text="متزوج"
+                            />
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="14dp"
+                            android:background="@drawable/ba_shape"
+                            android:text="الحالة الاجتماعية"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            />
+
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:padding="5dp"
+                            android:background="@drawable/ba_shape"
+                            android:textSize="15dp"
+                            android:gravity="right"
+                            android:textColor="#fff"
+                            android:layout_weight="1"
+                            android:text="جود عيد رشاد شراب"
+                            />
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="15dp"
+                            android:background="@drawable/ba_shape"
+                            android:text="الاولاد"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            />
+
+                    </TableRow>
+
+
+
+
+
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
